@@ -27,7 +27,7 @@ driver.get("https://www.facebook.com/");
   System.out.println(d);
 	}
 	@Test
-	private void tc1() {
+	private void tc() {
 WebElement a = driver.findElement(By.id("email"));
 a.sendKeys("pradeepa");
 WebElement b = driver.findElement(By.id("pass"));
